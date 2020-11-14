@@ -2,13 +2,21 @@
 This will be a extensive repo with all the solutions for the problems listed below....
 ## the list 
 Reverse the array -- done
+
 Find the maximum and minimum element in an array -- done
+
 Find the "Kth" max and min element of an array -- done
+
 Given an array which consists of only 0, 1 and 2. Sort the array without using any sorting algo -- done
+
 Move all the negative elements to one side of the array -- done
+
 Find the Union and Intersection of the two sorted arrays. -- done
+
 Write a program to cyclically rotate an array by one. -- done
+
 find Largest sum contiguous Subarray [V. IMP] -- done using brute force. kadane not working for edge case. working on it.
+
 Minimise the maximum difference between heights [V.IMP]
 Minimum no. of Jumps to reach end of an array
 find duplicate in an array of N+1 Integers
