@@ -16,6 +16,7 @@ public class Main {
         listOfQuestions.add("Union of two arrays");
         listOfQuestions.add("Cyclically rotate an array by one");
         listOfQuestions.add("find Largest sum contiguous SubArray");
+        listOfQuestions.add("Minimize the heights");
 
         System.out.println("Enter Question no. to run it...");
         for (int i = 0; i < listOfQuestions.size(); i++) {
@@ -46,6 +47,9 @@ public class Main {
                 break;
             case 8:
                 new ContinuousMaxSumArray().run();
+                break;
+            case 9:
+                new MinimizeTheHeightArray().run();
                 break;
             default:
                 System.out.println("Enter valid Input");

@@ -1,3 +1,4 @@
+## Feel free to fork the repo...
 # Problems
 This will be a extensive repo with all the solutions for the problems listed below....
 ## the list 
@@ -15,9 +16,10 @@ Find the Union and Intersection of the two sorted arrays. -- done
 
 Write a program to cyclically rotate an array by one. -- done
 
-find Largest sum contiguous Subarray [V. IMP] -- done using brute force. kadane not working for edge case. working on it.
+find The Largest sum contiguous SubArray [V.Imp] -- done. using brute force. kadane not working for edge case. working on it.
 
-Minimise the maximum difference between heights [V.IMP]
+Minimise the maximum difference between heights [V.IMP] -- done
+
 Minimum no. of Jumps to reach end of an array
 find duplicate in an array of N+1 Integers
 Merge 2 sorted arrays without using Extra space.
