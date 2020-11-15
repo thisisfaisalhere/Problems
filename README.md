@@ -1,8 +1,11 @@
 ## Feel free to fork the repo...
 # Problems
 This will be an extensive repo with all the solutions for the problems listed below....
+
 ##or
 get the list [here](questions.xlsx)
+
+
 ## the list 
 Reverse the array -- done
 
@@ -22,7 +25,8 @@ find The Largest sum contiguous SubArray [V.Imp] -- done. using brute force. kad
 
 Minimise the maximum difference between heights [V.IMP] -- done
 
-Minimum no. of Jumps to reach end of an array
+Minimum no. of Jumps to reach end of an array -- done with O(n^2) complexity. reducing it.
+
 find duplicate in an array of N+1 Integers
 Merge 2 sorted arrays without using Extra space.
 Kadane's Algo [V.V.V.V.V IMP]
