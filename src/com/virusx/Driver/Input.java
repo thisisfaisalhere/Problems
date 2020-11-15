@@ -1,4 +1,4 @@
-package com.virusx;
+package com.virusx.Driver;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,14 +8,15 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Input {
-    static BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+    private static final BufferedReader bufferedReader =
+            new BufferedReader(new InputStreamReader(System.in));
 
-    static List<Integer> spaceSeparatedListInt() throws IOException {
+    public static List<Integer> spaceSeparatedListInt() throws IOException {
         return Stream.of(bufferedReader.readLine().split(" "))
                 .map(Integer::parseInt).collect(Collectors.toList());
     }
 
-    static int[] spaceSeparatedIntArray() throws IOException {
+    public static int[] spaceSeparatedIntArray() throws IOException {
         List<Integer> list = Stream.of(bufferedReader.readLine().split(" "))
                 .map(Integer::parseInt).collect(Collectors.toList());
         int[] array = new int[list.size()];
@@ -25,16 +26,16 @@ public class Input {
         return array;
     }
 
-    static List<String> spaceSeparatedListString() throws IOException {
+    public static List<String> spaceSeparatedListString() throws IOException {
         return Stream.of(bufferedReader.readLine().split(" "))
                 .collect(Collectors.toList());
     }
 
-    static int singleInt() throws IOException {
+    public static int singleInt() throws IOException {
         return Integer.parseInt(bufferedReader.readLine());
     }
 
-    static String singleString() throws IOException {
+    public static String singleString() throws IOException {
         return bufferedReader.readLine();
     }
 }

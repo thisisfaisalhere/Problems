@@ -27,7 +27,8 @@ Minimise the maximum difference between heights [V.IMP] -- done
 
 Minimum no. of Jumps to reach end of an array -- done
 
-find duplicate in an array of N+1 Integers
+find duplicate in an array of N+1 Integers -- done
+
 Merge 2 sorted arrays without using Extra space.
 Kadane's Algo [V.V.V.V.V IMP]
 Merge Intervals

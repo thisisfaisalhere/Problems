@@ -1,5 +1,7 @@
 package com.virusx;
 
+import com.virusx.Arrays.*;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -18,6 +20,7 @@ public class Main {
         listOfQuestions.add("find Largest sum contiguous SubArray");
         listOfQuestions.add("Minimize the heights");
         listOfQuestions.add("Minimum number of jumps");
+        listOfQuestions.add("Find the Duplicate Number");
 
         System.out.println("Enter Question no. to run it...");
         for (int i = 0; i < listOfQuestions.size(); i++) {
@@ -54,6 +57,9 @@ public class Main {
                 break;
             case 10:
                 new MinNoOfJumpsArray().run();
+                break;
+            case 11:
+                new DuplicateNoArray().run();
                 break;
             default:
                 System.out.println("Enter valid Input");

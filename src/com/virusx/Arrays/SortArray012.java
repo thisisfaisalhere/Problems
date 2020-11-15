@@ -1,4 +1,6 @@
-package com.virusx;
+package com.virusx.Arrays;
+
+import com.virusx.Driver.Input;
 
 import java.io.IOException;
 import java.util.Arrays;
