@@ -1,6 +1,8 @@
 ## Feel free to fork the repo...
 # Problems
-This will be a extensive repo with all the solutions for the problems listed below....
+This will be an extensive repo with all the solutions for the problems listed below....
+##or
+get the list [here](questions.xlsx)
 ## the list 
 Reverse the array -- done
 

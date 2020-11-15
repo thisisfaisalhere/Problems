@@ -1,6 +1,7 @@
 package com.virusx;
 
 import java.io.IOException;
+import java.util.Arrays;
 
 public class MinimizeTheHeightArray {
 
@@ -21,12 +22,13 @@ public class MinimizeTheHeightArray {
     }
 
     private void solve(int[] array, int k) {
-        int max = array[0], min = array[0];
-        for(int i = 1; i < array.length; i++) {
-            if(array[i] < min) min = array[i];
-            if(array[i] > max) max = array[i];
+        Arrays.sort(array);
+        int ans = array[array.length - 1] - array[0];
+        for (int i = 1; i < array.length; i++) {
+            int min = Math.min(array[0] + k, array[i] - k);
+            int max = Math.max(array[array.length - 1] - k, array[i - 1] + k);
+            ans = Math.min(ans, max - min);
         }
-        int ans = (max - k) - (min + k);
         System.out.println(ans);
     }
 }
