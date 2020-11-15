@@ -25,7 +25,7 @@ find The Largest sum contiguous SubArray [V.Imp] -- done. using brute force. kad
 
 Minimise the maximum difference between heights [V.IMP] -- done
 
-Minimum no. of Jumps to reach end of an array -- done with O(n^2) complexity. reducing it.
+Minimum no. of Jumps to reach end of an array -- done
 
 find duplicate in an array of N+1 Integers
 Merge 2 sorted arrays without using Extra space.
